@@ -29,6 +29,6 @@ EXPOSE 80
 
 # Set up app; order of operations optimized for maximum layer reuse
 RUN mkdir /var/app
-#COPY composer.lock /var/app/composer.lock
+COPY composer.lock /var/app/composer.lock
 COPY composer.json /var/app/composer.json
 RUN cd /var/app && php7 /usr/sbin/composer install --prefer-dist -o

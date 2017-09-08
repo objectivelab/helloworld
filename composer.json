@@ -1,6 +1,6 @@
 {
   "name": "objectivelab/helloworld",
-  "description": "Simple Docker container for PHP app",
+  "description": "Simple Docker container for PHP app with Lumen installer",
   "keywords": ["PHP", "Docker", "Lumen", "helloworld"],
   "homepage": "https://github.com/objectivelab/helloworld",
   "license": "MIT",
@@ -13,5 +13,8 @@
       "homepage": "http://kondrateva.com",
       "role": "Developer"
     }
-  ]
+  ],
+  "require": {
+    "laravel/lumen-installer": "^1.0"
+  }
 }
