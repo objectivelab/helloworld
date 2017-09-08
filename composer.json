@@ -1,0 +1,17 @@
+{
+  "name": "objectivelab/helloworld",
+  "description": "Simple Docker container for PHP app",
+  "keywords": ["PHP", "Docker", "Lumen", "helloworld"],
+  "homepage": "https://github.com/objectivelab/helloworld",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Elena Kondrateva",
+      "email": "elena@kondrateva.com",
+      "homepage": "http://kondrateva.com",
+      "role": "Developer"
+    }
+  ]
+}
