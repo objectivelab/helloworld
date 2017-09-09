@@ -31,4 +31,4 @@ EXPOSE 80
 RUN mkdir /var/app
 COPY composer.lock /var/app/composer.lock
 COPY composer.json /var/app/composer.json
-RUN cd /var/app && php7 /usr/sbin/composer install --prefer-dist -o
+RUN php7 /usr/sbin/composer install --prefer-dist -o --working-dir=/var/app
